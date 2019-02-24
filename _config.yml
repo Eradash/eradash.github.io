@@ -129,7 +129,7 @@ navigation_header:
   Home: /
   Blog: /blog/
   Categories: /categories/
-  Search: /search/
+#  Search: /search/
 
 navigation_footer:
   Created with Alembic: https://github.com/daviddarnes/alembic
