@@ -11,5 +11,11 @@ categories:
 - SaglacIO
 ---
 
-Slides [here](../files/reactivex_presentation.pdf)
+ReactiveX is a framework for reactive programming based ont the Observable pattern.
+It is available for a ton of languages, and concepts are detailed in the documentation for all implementations.
 
+For more information, you can check my [slides](https://eradash.github.io/files/reactivex_presentation.pdf), or check the official documentation [here](http://reactivex.io/).
+
+Have fun!
+
+_I will add more info when I will have the time_
