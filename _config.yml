@@ -1,3 +1,36 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Build settings
+markdown: kramdown
+remote_theme: daviddarnes/alembic
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+
 # Site configuration
 # 1. Files excluded from Jekyll builds
 # 2. Installed Gems
@@ -13,12 +46,8 @@ exclude:
 - README.md
 - CODE_OF_CONDUCT.md
 - CONTRIBUTING.md
-- screenshot.png
-- LICENSE
-- CNAME
 - Gemfile
 - Gemfile.lock
-- alembic-jekyll-theme.gemspec
 - .jekyll-cache
 
 # 2. Installed Gems
@@ -77,15 +106,18 @@ defaults:
       image: "/assets/default-social-image.png" # Default image for sharing
 
 # 7. Site settings
+title: Vincent Poirier
+email: poirier.20.100@hotmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Passionate developper working principally with Java on Android. I love
+  Python and Docker too!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://eradash.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  eradash
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
-title: "Eradash" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
-url: "http://eradash.github.io" # Site url, also used in jekyll-seo-tag
-baseurl: ""
 repo: "https://github.com/eradash/eradash.github.io"
-email: "poirier.20.100@hotmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 # google_analytics: ''
