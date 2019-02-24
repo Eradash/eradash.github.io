@@ -1,7 +1,12 @@
 ---
 layout: post
 title:  "Creating my website"
+image: ''
 date:   2019-02-23 19:41:06 -0500
+description: |
+    I'm creating my website!
+categories:
+- Blog
 ---
 
 I'm creating my website!
