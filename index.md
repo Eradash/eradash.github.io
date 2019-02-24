@@ -16,8 +16,5 @@ feature_image: "https://picsum.photos/1300/400?image=989"
     <p>
     {{ post.description }}
     </p>
-    <a href="{{ post.url }}">
-            Learn more...
-    </a>
   </article>
 {% endfor %} 
